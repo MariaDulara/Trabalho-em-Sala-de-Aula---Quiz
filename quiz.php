@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-   
+
     <title>Quiz</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
+
 <body>
     <h1>Descobrindo o Universo Marvel</h1>
     <form action="resultado.php" method="get">
@@ -49,7 +51,7 @@
         <br><br>
 
         <label for="resposta6"> Qual é o planeta natal do Senhor das Estrelas (Star-Lord) no Universo Marvel?</label>
-        <input type="radio" name="resposta" value="opcao1" id="resposta6_opcao1">
+        <input type="radio" name="resposta6" value="opcao1" id="resposta6_opcao1">
         <label for="resposta6_opcao1"> Xandar</label>
 
         <input type="radio" name="resposta6" value="opcao2" id="resposta6_opcao2">
@@ -63,10 +65,11 @@
         <button type="submit" href="resultado.php">Resultado</button>
 
 
-       </form>
+    </form>
 
 
-      
-    
+
+
 </body>
+
 </html>
