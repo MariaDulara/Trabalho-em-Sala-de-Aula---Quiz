@@ -45,49 +45,53 @@
 
     <h1>Resultado das respostas:</h1>
 
+    <form action="resultado.php" method="get">
 
-    <label>Qual é o nome completo do personagem conhecido como Homem de Ferro nos quadrinhos da Marvel?</label>
+        <label>Qual é o nome completo do personagem conhecido como Homem de Ferro nos quadrinhos da Marvel?</label>
 
-    <label> R: Homem de Ferro nos quadrinhos da Marvel é Anthony Stark</label>
+        <label> R: Homem de Ferro nos quadrinhos da Marvel é Anthony Stark</label>
 
-    <br><br>
+        <br><br>
 
-    <label>Em que ano foi lançado o primeiro quadrinho da Marvel Comics?</label>
+        <label>Em que ano foi lançado o primeiro quadrinho da Marvel Comics?</label>
 
-    <label> R: O primeiro quadrinho da Marvel Comics foi lançado em 1939</label>
+        <label> R: O primeiro quadrinho da Marvel Comics foi lançado em 1939</label>
 
-    <br><br>
-
-
-    <label>Qual é o nome da equipe de super-heróis liderada pelo Professor Xavier nos quadrinhos da Marvel?</label>
-
-    <label> R:A equipe de super-heróis liderada pelo Professor Xavier nos quadrinhos da Marvel é os X-Men.</label>
-
-    <br><br>
+        <br><br>
 
 
+        <label>Qual é o nome da equipe de super-heróis liderada pelo Professor Xavier nos quadrinhos da Marvel?</label>
 
-    <label>Quem é o Deus do Trovão no Universo Marvel?</label>
+        <label> R:A equipe de super-heróis liderada pelo Professor Xavier nos quadrinhos da Marvel é os X-Men.</label>
 
-    <label> R: Thor</label>
-
-    <br><br>
-
-
-    <label>Quem é o principal vilão em "Vingadores: Guerra Infinita?</label>
-
-    <label> R: Thanos</label>
-
-    <br><br>
+        <br><br>
 
 
 
-    <label> Qual é o planeta natal do Senhor das Estrelas (Star-Lord) no Universo Marvel?</label>
+        <label>Quem é o Deus do Trovão no Universo Marvel?</label>
 
-    <label> R:Xandar</label>
+        <label> R: Thor</label>
+
+        <br><br>
 
 
-    <p>Você acertou <?php echo $contador; ?> questões.</p>
+        <label>Quem é o principal vilão em "Vingadores: Guerra Infinita?</label>
+
+        <label> R: Thanos</label>
+
+        <br><br>
+
+
+
+        <label> Qual é o planeta natal do Senhor das Estrelas (Star-Lord) no Universo Marvel?</label>
+
+        <label> R:Xandar</label>
+
+    </form>
+
+
+    <h3>Você acertou <?php echo $contador; ?> questões.</h3>
+
 
 
 </body>

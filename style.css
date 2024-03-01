@@ -1,11 +1,15 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    margin: 20px;
+    margin: 70px;
 }
 
 h1 {
     color: #333;
+}
+
+h3 {
+    color: #0eb95b;
 }
 
 form {
@@ -24,10 +28,16 @@ label {
 input[type="text"],
 input[type="radio"] {
     margin-bottom: 12px;
+    display: inline-block;
 }
+
+
 
 input[type="radio"] {
     margin-right: 5px;
+    display: inline-block;
+
+
 }
 
 button {
